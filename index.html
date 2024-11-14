@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de desejos | GXT.</title>
+
+  <link rel="stylesheet" href="./source/styles/index.css">
+  <link rel="stylesheet" href="./source/styles/mobile.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <div class="logotype">
+      <h1 id="title-logotype-header">Lista de desejos - </h1>
+      <!-- <img src="" alt="logotipo" id="img-logotype-header"> Substituir o valor do atributo src -->
+    </div>
+    <div class="transparent">
+
+    </div>
+    <div class="menu">
+      <nav id="nav-menu-header">
+        <ul id="list-nav-menu-header">
+          <li class="item-list-nav-menu-header"><a href="">Dúvidas</a></li>
+          <li class="item-list-nav-menu-header"><a href="">Conta</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="btn-menu-header"></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="first-section">
+      <div id="menu-box-fs">
+
+        <div id="box-title-menu-fs">
+          <h2 class="title-menu-fs">Filtrar</h2>
+        </div>
+
+        <div id="box-nav-menu-fs">
+          <nav id="nav-menu-fs">
+            <ul id="list-menu-fs">
+              <li class="item-list-menu-fs" id="feito"><i class="fa-solid fa-check-circle"></i>Itens adquiridos</li>
+              <li class="item-list-menu-fs " id="nao-feito"><i class="fa-solid fa-hourglass"></i>Itens não adquiridos</li>
+              <li class="item-list-menu-fs" id="todos"><i></i>Todos</li>
+            </ul>
+          </nav>
+        </div> 
+
+      </div>
+
+      <div id="wishes-box-fs">
+        <div id="create-task-box-fs">
+          <form>
+            <label for="input-create-task-fs">Algo que deseja:</label>
+            <input type="text" id="input-create-wish-fs">
+            <button type="button" id="button-create-wish"><i class="">+</i></button>
+          </form>
+        </div>
+        <div id="show-wishes">
+          <ul id="list-of-wishes"></ul>
+        </div>
+      </div>
+      
+      <div id="details-fs"></div>
+    </section>
+  </main>
+  <footer></footer>
+
+  <script type="module" src="./source/javascript/index.js"></script>
+</body>
+</html>

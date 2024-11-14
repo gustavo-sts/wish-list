@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variáveis */
+:root{
+  --cor-de-fundo: #fff;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+body{
+  color: var(--cor-de-fundo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+header{
+  margin-top: 20px;
+
+  background-color: #000;
+
+  width: 96%;
+  height: 100px;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+/* Logotipo e seus elementos. */
+.logotype{
+  width: 500px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+#title-logotype-header{
+  margin-left: 4%;
+
+  font-family: 'Lucida Sans';
+  font-size: 30px;
+
+  cursor: default;
+}
+
+#img-logotype-header{
+  width: 40px;
+  height: 40px;
+}
+/* Div para criar efeito de ilha no header. */
+.transparent{
+  background-color: var(--cor-de-fundo);
+
+  width: 400px;
+  height: 20px;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* Menu desktop e seus componentes. */
+.menu{
+  background-color: transparent;
+
+  width: 500px;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#nav-menu-header{
+  margin-right: 4%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list-nav-menu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.item-list-nav-menu-header{
+  list-style: none;
+}
+
+.item-list-nav-menu-header a{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+/* Botão para tornar menu visível no monile. */
+#btn-menu-header{
+  display: none;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+main{
+  background: #fff;
+
+  width: 100%;
+}
+
+#first-section{
+  margin-top: 20px;
+
+  display: flex;
+  gap: 40px;
+}
+
+#menu-box-fs{
+  margin-left: 2%;
+
+  background-color: #272727;
+
+  border-radius: 20px;
+
+  width: 300px;
+  height: 700px;
+}
+
+#box-title-menu-fs{
+  height: 80px;
+  width: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-menu-fs{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff9e01;
+}
+
+#box-nav-menu-fs{
+  width: inherit;
+  height: auto;
+}
+
+#nav-menu-fs{
+  display: flex;
+  justify-content: center;
+}
+
+#list-menu-fs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-list-menu-fs{
+  list-style: none;
+  text-align: left;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+  cursor: pointer;
+
+  display: flex;
+  gap: 5px;
+}
+
+#feito i {
+  color: #e3e925;
+}
+
+#wishes-box-fs{
+  background-color: #272727;
+
+  border-radius: 20px;
+
+  width: 500px;
+  height: 700px;
+}
+
+#create-task-box-fs{
+  width: inherit;
+  height: 100px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-create-wish-fs{
+  border-radius: 10px;
+  border: 2px solid #888;
+
+  width: 200px;
+  height: 30px;
+
+  text-indent: 20px;
+}
+
+#list-of-wishes{
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.list-item{
+  margin-left: 50px;
+  list-style: none;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.list-item p{
+  font-size: 20px;
+  font-family: arial;
+}
+
+.list-item button{
+  background-color: red;
+}
+
+form{
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+label{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  padding: 5px 10px;
+  background-color: #e3e925;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-family: arial;
+  font-size: 20px;
+}
+
+#details-fs{
+  border: 10px double black;
+  border-radius: 20px;
+
+  width: 575px;
+  height: 700px;
+}
+
+
+footer{
+  background-color: #000;
+}
