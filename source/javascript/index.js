@@ -16,7 +16,7 @@ async function createWish(wishNameInput) {
     wish_name.textContent = wishNameInput;
 
     const btn_delete_wish = document.createElement('button');
-    btn_delete_wish.textContent = "Deletar tarefa.";
+    btn_delete_wish.textContent = "Deletar.";
 
     wish_item.append(done_box, wish_name, btn_delete_wish)
 

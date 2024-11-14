@@ -13,6 +13,7 @@
   }
 
   .transparent{
+    display: none;
     position: absolute;
     margin-left: 35%;
     width: 100px;

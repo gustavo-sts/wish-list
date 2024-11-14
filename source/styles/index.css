@@ -222,6 +222,18 @@ main{
   font-family: arial;
 }
 
+.list-item input[type="checkbox"]{
+      appearance: none; 
+      -webkit-appearance: none; 
+      width: 20px;  
+      height: 20px; 
+      border: 2px solid #ccc; 
+      border-radius: 4px; 
+      position: relative;
+      background-color: #000000; 
+      cursor: pointer; 
+}
+
 .list-item button{
   background-color: red;
 }
